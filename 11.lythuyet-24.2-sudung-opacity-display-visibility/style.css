@@ -1,0 +1,11 @@
+img {
+  transition: 1.5s;
+}
+input:checked ~ img {
+  /* biến mất khỏi giao diện */
+  /* display: none; */
+  /* biến mất khỏi giao diện nhưng vẫn chiếm vị trí */
+  visibility: hidden;
+  /* trong suốt */
+  /* opacity: 0; */
+}
