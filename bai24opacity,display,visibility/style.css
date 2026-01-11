@@ -1,0 +1,13 @@
+h2 {
+  /* opacity: 0%; */
+  /* display: none; */
+  visibility: hidden;
+}
+body {
+  background-image: url(./diego-ph-5LOhydOtTKU-unsplash.jpg);
+}
+span {
+  /* opacity: 1; */
+  /* display: block; */
+  visibility: visible;
+}
