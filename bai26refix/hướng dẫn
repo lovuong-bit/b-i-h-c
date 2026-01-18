@@ -1,0 +1,3 @@
+một số trình duyệt không tương thích với các thuộc tính trong css nên cần thêm prefix css vendor trước mỗi thuộc tính đó có thể sử dụng https://www.geeksforgeeks.org/css/explain-css-vendor-prefixes/ 
+hoặc là để tự động prefix https://autoprefixer.github.io/
+hoặc dùng web này để biết thuộc tính nào cần prefix https://caniuse.com/?search=user-select
