@@ -1,0 +1,20 @@
+div p {
+  color: blue;
+  /* chuyển các thẻ p trong div thành màu xanh  */
+}
+.loichuc p {
+  color: red;
+  font-size: 30px;
+  /* chuyển các thẻ p trong class loichuc thành màu đỏ và font-size 30px */
+}
+div > p {
+  color: aquamarine;
+  /* chuyển các thẻ p là thẻ con trực tiếp của div thành màu xanh lam  */
+}
+h1 + h2 {
+  color: red;
+  /* tác dụng lên thẻ h2 đứng sát sau thẻ h1 */
+}
+.demo.demo2 + h3 {
+  color: blue;
+}

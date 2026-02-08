@@ -1,0 +1,5 @@
+h1 ~ h3 {
+  color: blue;
+}
+/*  chọn tất cả thẻ h3 đứng sau thẻ h1 thành
+màu blue  */
