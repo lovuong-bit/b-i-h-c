@@ -1,0 +1,34 @@
+a [href] {
+  color: red;
+}
+/* chọn các thẻ a có thuộc tính href  */
+[target="_blank"] {
+  color: pink;
+  /* chọn các thẻ có target="_blank" */
+}
+[title~="tuhoc.cc"] {
+  font-style: italic;
+}
+/* chọn các thẻ có title có chữ tuhoc.cc nhưng mà 
+là từ riêng */
+
+[title*="tuhoc.zz"] {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* chọn các thẻ có title có chuỗi tuhoc.zz */
+
+[title|="pic"] {
+  color: grey;
+}
+/*  chọn các thẻ title có mỗi từ pic hoặc từ pic-123 (có dấu gạch ngang) */
+[title^="bacon"] {
+  color: brown;
+}
+/* chọn các thẻ title có từ đầu là chứa chuỗi bacon (không quan tâm đến đằng sau) */
+[title$="e"] {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: green;
+}
+/* chọn các thẻ title có kết thúc bằng kí tự e */
