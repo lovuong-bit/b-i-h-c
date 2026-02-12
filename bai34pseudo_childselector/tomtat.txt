@@ -1,0 +1,5 @@
+tóm tắt bài như sau : 
+-bộ chọn thẻ con này có nhiều cách sử dụng đa dạng
+-đặc biệt chú ý bộ chọn này tuân theo nguyên tắc chọn theo vị trí n của
+các thẻ con có trong khối thẻ chứ không phải theo vị trí của thẻ con được chọn thứ n
+-sự khác biệt giữa bài 34 và bài 35

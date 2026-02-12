@@ -1,0 +1,35 @@
+p:first-child {
+  color: red;
+  font-size: 30px;
+}
+/* tác động thẻ con p đầu tiên ( bắt buộc thẻ p phải là
+thẻ con đầu tiên */
+p:last-child {
+  color: blue;
+  font-size: 30px;
+}
+/* tương tự giống first-child */
+p:nth-child(2) {
+  color: pink;
+}
+/* thẻ p đứng ở vị trí n */
+/* tương tự cũng phải tuân theo nguyên tắc thứ tự */
+/* tương tự đếm ngược từ dưới lên có cú phấp là
+               selector:nth-last-child(n)*/
+
+/* selector:nth-child(odd) nhảy theo n lẻ */
+/* selector:nth-child(oven) nhảy theo n chẵn  */
+
+/* 
+0->1
+1->4
+2->7
+p:nth-child(3n+1){color:chocolate}
+
+/* lấy các thẻ p đứng ở vị trí thứ 3n+1 (1,4,7,..) */
+/*  */
+
+p:only-child {
+  color: purple;
+}
+/*  chọn thẻ con duy nhất */
