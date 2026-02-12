@@ -1,0 +1,30 @@
+/* di chuyển chuột vào thẻ p sẽ thay đổi  */
+#locheo:hover {
+  color: #800080;
+}
+.lothu:active {
+  color: red;
+}
+/* nhấn chuột vào thì sẽ thay đổi */
+.click_me:link {
+  color: chocolate;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* chỉ áp dụng cho thẻ a có link khi chưa di chuột vào */
+.click_me:visited {
+  color: blue;
+}
+/* đổi màu khi truy cập vào link , nhập sai link rồi truy 
+cập cũng đéo đổi, chỉ cho đổi màu thôi đổi cái khác đéo được */
+.div_elm:empty {
+  height: 200px;
+  width: 200px;
+  background-color: silver;
+  /*làm 1 thẻ không có gì hiện lên có tí vị */
+}
+h2:target {
+  color: blue;
+}
+/* khó giải thích nên hiểu theo nghĩa là muốn tìm 
+1 nội dung trong 1 web thì click vào đường dẫn id rồi tới phần 
+đó đọc và làm nổi bật tiêu đề phần đó  */
