@@ -1,0 +1,25 @@
+p:first-of-type {
+  color: chocolate;
+  font-size: 30px;
+}
+/* chọn thẻ p thứ nhất */
+p:last-of-type {
+  color: violet;
+  font-size: 30px;
+}
+/* chọn thẻ p thứ nhất từ dưới đếm lên */
+p:nth-of-type(4) {
+  color: blue;
+  font-size: 30px;
+}
+/* chọn thẻ p thứ n */
+p:nth-last-of-type(4) {
+  color: red;
+  font-size: 30px;
+}
+/* tương tự đếm ngược từ dưới lên , ngoài ra odd:vị trí lẻ
+oven: vị trí chẵn , hay 3n+1 */
+p:only-of-type {
+  color: pink;
+  font-size: 30px;
+}
