@@ -1,0 +1,10 @@
+.top:not(p) {
+  color: red;
+  background-color: yellow;
+}
+/* chọn những thẻ có class là top ngoại trừ thẻ p */
+div:first-of-type > p:not(:first-of-type) {
+  color: purple;
+}
+/* chọn những thẻ p là con trực tiếp 
+của thẻ div đầu tiên mà không chọn thẻ p đầu tiên  */
