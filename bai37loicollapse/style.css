@@ -1,0 +1,19 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 10px ridge red;
+}
+.box1 {
+  margin-bottom: 50px;
+}
+.box2 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+/* margin collapse không xảy ra theo chiều ngang   */
+.item {
+  display: inline;
+  /* inline là cùng 1 dòng  */
+  background-color: yellow;
+  border: 5px solid chocolate;
+}

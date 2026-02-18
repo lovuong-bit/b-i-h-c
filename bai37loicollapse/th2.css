@@ -1,0 +1,15 @@
+.box-parent {
+  height: 300px;
+  background-color: aquamarine;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  /* thêm 2 cái này vào flex là xếp phần tử con thành 1 hàng có thể điều khiển được 
+  còn column là xếp theo hàng dọc */
+}
+.box-child {
+  width: 50%;
+  background-color: brown;
+  margin-top: 90px;
+  /* chọn cái lớn hơn */
+}
