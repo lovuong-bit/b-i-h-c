@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(194, 129, 129);
+}
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid rgb(78, 65, 65);
+  margin-left: -100px;
+}
+.avatar:first-child {
+  margin-left: 350px;
+  margin-top: 200px;
+}
+.content {
+  background-color: rgb(230, 102, 102);
+}

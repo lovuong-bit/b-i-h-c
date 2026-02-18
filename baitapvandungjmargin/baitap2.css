@@ -1,0 +1,16 @@
+body {
+  background-color: rgba(141, 158, 173, 0.504);
+}
+.container > h1 {
+  font-size: 40px;
+}
+.container > p {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.container {
+  margin: 0 auto;
+  width: 700px;
+  background-color: crimson;
+  text-align: center;
+}

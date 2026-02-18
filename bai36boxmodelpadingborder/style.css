@@ -1,0 +1,28 @@
+div:first-of-type {
+  width: 100px;
+  height: 100px;
+  color: chocolate;
+  background-color: grey;
+  padding: 20px;
+  /* gồm padding-top,right,.. */
+  /* dùng kết hợp thì ghi thêm ví dụ
+  padding:20px 30px 50px 60px */
+  border: 10px outset blue;
+  /* có thể tách ra viết thành
+  border-width
+  border-style
+  border-color
+  và áp dụng được quy tắc padding */
+  border-radius: 70px;
+  /* radius:bo tròn 
+  áp dụng cả padding  */
+}
+.box {
+  width: 200px;
+  height: 200px;
+  color: red;
+  background-color: green;
+  padding: 10px 20px 30px 40px;
+  border: 10px inset blue;
+  margin: 15px;
+}
