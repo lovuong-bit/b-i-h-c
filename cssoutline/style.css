@@ -1,0 +1,21 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  border: 10px solid blue;
+  outline: 20px ridge red;
+  /* không áp dụng được chèn mỗi cạnh 1 màu
+   giống border hay padding */
+  margin: 50px;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  border: 10px solid blue;
+  outline: 20px ridge red;
+  /* không áp dụng được chèn mỗi cạnh 1 màu
+   giống border hay padding */
+  margin: 50px;
+  outline-offset: 10px;
+  /* khoảng cách từ out-line đến phần tử gần nhất 
+  trong trường hợp này là border */
+}
