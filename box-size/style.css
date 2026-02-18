@@ -1,0 +1,12 @@
+.box {
+  width: 100px;
+  height: 150px;
+  border: 10px ridge red;
+  box-sizing: content-box;
+}
+.box2 {
+  box-sizing: border-box;
+  /* tính kích thước của width và height thành kích thước
+  của phần tử(tính từ border vô ) và padding không thay đổi do kế thừa từ box  chỉ có 
+  kích thước content thay đổi  */
+}
